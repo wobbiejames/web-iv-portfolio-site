@@ -4,14 +4,15 @@
 	<title>A Nice & Simple Contact Form</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/foundation.min.css">
+	<link rel="stylesheet" href="../css/foundation.css">
+	<link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
 
-	<div id="page-wrap">
-
-		<img src="images/title.gif" alt="A Nice & Simple Contact Form" />
-		<p>By <a href="http://css-tricks.com">CSS-Tricks</a></p>
+	<div id="page-wrap" class="text-center">
 			
 			
 		<br /><br />
@@ -19,7 +20,7 @@
 			
 		<h1>Your message has been sent!</h1><br />
 		
-		<p><a href="index.html">Back to Contact Form</a></p>
+		<p><a href="../contact.html">Back to Contact Form</a></p>
 	
 	</div>
 	
