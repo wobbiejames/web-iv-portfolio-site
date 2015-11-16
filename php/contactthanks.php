@@ -13,8 +13,11 @@
 <body>
 
 	<div id="page-wrap" class="text-center">
-			
-			
+		<br /> <br />	
+		<a class="text-center">
+        <img src="http://placehold.it/175x300">
+        </a>
+       	
 		<br /><br />
 		
 			
@@ -23,7 +26,10 @@
 		<p><a href="../contact.html">Back to Contact Form</a></p>
 	
 	</div>
-	
+    <!-- typeface /brandon grotesque/-->
+	<script src="https://use.typekit.net/pns4uwu.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
 	</script>
 	<script type="text/javascript">
