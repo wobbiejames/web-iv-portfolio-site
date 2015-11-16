@@ -24,3 +24,15 @@
   filter: grayscale(0);
   
 }
+
+
+.panel p{
+	position:relative;
+	top:-30px;
+	left:30px;
+	visibility:hidden;
+}
+
+.panel:hover p{
+	visibility:visible;
+}
