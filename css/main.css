@@ -73,6 +73,7 @@ body {
 	top:-90px;
 	left:30px;
 	visibility:hidden;
+	color:#da1e35;
 }
 .panel:hover p{
 	visibility:visible;
@@ -84,6 +85,10 @@ blockquote{
 
 h1{
 	padding:5rem 0 0 0;
+}
+
+h1, h2, h3{
+	text-transform:uppercase;
 }
 
 .white{
@@ -107,7 +112,7 @@ h1{
 	width: 100%;
 	text-align: left;
 	padding: 1.5rem;
-	margin-top: 2rem;
+	margin-top: 6rem;
 }
 
 .footer-distributed .footer-left p{
