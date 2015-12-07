@@ -49,20 +49,20 @@ body {
 	border-radius:50%;
 }
 .portimg {
-  -webkit-filter: grayscale(100%);
-  -webkit-transition: .5s ease-in-out;
-  -moz-filter: grayscale(100%); 
-  -moz-transition: .5s ease-in-out;
-  -o-filter: grayscale(100%); 
-  -o-transition: .5s ease-in-out;
+  -webkit-filter: grayscale(100%) blur(3px);
+  -webkit-transition: .25s ease-in-out;
+  -moz-filter: grayscale(100%) blur(3px); 
+  -moz-transition: .25s ease-in-out;
+  -o-filter: grayscale(100%) blur(3px); 
+  -o-transition: .25s ease-in-out;
 }
 .portimg:hover{
-  -webkit-filter: grayscale(0%);
-  -webkit-transition: .5s ease-in-out;
-  -moz-filter: grayscale(0%);
-  -moz-transition: .5s ease-in-out;
-  -o-filter: grayscale(0%);
-  -o-transition: .5s ease-in-out;  
+  -webkit-filter: grayscale(0%) blur(0px);
+  -webkit-transition: .25s ease-in-out;
+  -moz-filter: grayscale(0%) blur(0px);
+  -moz-transition: .25s ease-in-out;
+  -o-filter: grayscale(0%) blur(0px);
+  -o-transition: .25s ease-in-out;
 }
 
 
