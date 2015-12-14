@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>wobbie | home</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>wobbie | home</title>
+    <link rel="stylesheet" href="css/styles.css">
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <link rel="stylesheet" href="css/ie.css">
@@ -11,26 +12,26 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/main.css">
     <script src="js/responsive-nav.js"></script>
   </head>
-  <body class="tk-brandon-grotesque">
+  <body>
 
     <header>
-      <a href="#"><img src="imgs/hey-wobbie-logo.svg" alt="hey wobbie logo" class="small-5 medium-3 large-2 hey-wobbie-logo"></a>
+      <a href="#home" class="logo" data-scroll>Fixed Nav</a>
       <nav class="nav-collapse">
         <ul>
-          <li class="menu-item tk-brandon-grotesque"><a href="#" data-scroll>Home</a></li>
-          <li class="menu-item tk-brandon-grotesque"><a href="about.html" data-scroll>About</a></li>
-          <li class="menu-item tk-brandon-grotesque"><a href="contact.html" data-scroll>Contact</a></li>
+          <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+          <li class="menu-item"><a href="#about" data-scroll>About</a></li>
+          <li class="menu-item"><a href="#projects" data-scroll>Projects</a></li>
+          <li class="menu-item"><a href="#blog" data-scroll>Blog</a></li>
         </ul>
       </nav>
     </header>
 
-<div class="row row-margin-bottom">
+    <div class="row row-margin-bottom">
   <div class="columns text-center">
     <h1 class="tk-brandon-grotesque">Welcome</h1>
-    <blockquote>Welcome to Hey Wobbie, the graphic design portfolio website for me, Robert Taylor&#33; Please check out my work below.</blockquote>
+    <blockquote>Welcome to Hey Wobbie, the graphic design portfolio website for me Robert Taylor&#33; Please check out my work below.</blockquote>
     <hr>
   </div>
 </div>
@@ -38,26 +39,17 @@
 <div class="row">
   <div class="medium-6 columns">
     <div class="panel">
-      <a href="project-1.html"><img src="imgs/gucci-large.jpg" alt="gucci salt and pepper thumbnail" class="portimg"></a>
-      <span>
-      <p>gucci salt and pepper</p><p>package design</p>
-      </span>
+      <a href="project-1.html"><img src="imgs/gucci-large.jpg" alt="gucci salt and pepper thumbnail" class="portimg"></a><p class="white">gucci salt and pepper</p><p>package design</p>
     </div>
   </div>
   <div class=" medium-3 columns">
     <div class="panel">
-      <a href="project-2.html"><img data-interchange="[imgs/blet-preview-large.jpg, (default)], [imgs/blet-preview-small.jpg, (medium)]" alt="" class="portimg"></a>
-      <span>
-      <p>blet</p><p>promotional design</p>
-      </span>
+      <a href="project-2.html"><img data-interchange="[imgs/blet-preview-large.jpg, (default)], [imgs/blet-preview-small.jpg, (medium)]" alt="" class="portimg"></a><p class="white">blet</p><p>promotional design</p>
     </div>
   </div>
   <div class="medium-3 columns">
     <div class="panel">
-      <a href="project-3.html"><img data-interchange="[imgs/pan-preview-large.jpg, (default)], [imgs/pan-preview-small.jpg, (medium)]" alt="" class="portimg"></a>
-      <span>
-      <p>post and nickel</p><p>logo/identity system</p>
-      </span>
+      <a href="project-3.html"><img data-interchange="[imgs/pan-preview-large.jpg, (default)], [imgs/pan-preview-small.jpg, (medium)]" alt="" class="portimg"></a><p class="white">post and nickel</p><p class="white">logo/identity system</p>
     </div>
   </div>
 </div>
@@ -137,7 +129,5 @@
 <script>
     $(document).foundation();
   </script>
-    
-    
   </body>
 </html>
